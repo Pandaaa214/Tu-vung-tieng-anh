@@ -3,30 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Học Từ Vựng Tiếng Anh</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <title>Learn English</title>
+    <link rel="stylesheet" href="style.css"> </head>
 <body>
     <div class="container">
-        <h1>Flashcard Từ Vựng</h1>
+        <h1>Từ Vựng Hôm Nay</h1>
 
-        <div id="flashcard">
-            <div id="word-display" class="front">
-                </div>
-            <div id="meaning-display" class="back">
-                </div>
+        <div id="vocab-card">
+            <h2 id="word">Word</h2>
+            <p id="type">Type</p>
+            <p id="meaning">Meaning</p>
+            <p id="example">Example</p>
         </div>
 
-        <div class="buttons">
-            <button id="reveal-btn">Hiện Nghĩa / Từ</button>
-            <button id="next-btn">Từ Tiếp Theo</button>
-        </div>
-
-        <div class="progress">
-             Từ <span id="current-index">1</span> / <span id="total-words">0</span>
-        </div>
+        <button id="newWordBtn">Next</button>
     </div>
 
-    <script src="script.js"></script>
-</body>
+    <script src="script.js"></script> </body>
 </html>
